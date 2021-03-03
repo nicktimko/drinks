@@ -1,0 +1,266 @@
+[[cocktail]]
+title = "Gin & Tonic"
+page = 20
+
+steps = [
+    "Mix all",
+    "Carbonate",
+    "Refrigerate"
+]
+
+[[cocktail.ingredients.single]]
+junipero_gin = "60 mL"
+simple_syrup = "15 mL"
+green_chartreuse = "15 mL"
+citric_acid = "1.3 g"
+fever_tree_tonic = "120 mL"
+
+[[cocktail.ingredients.batch]]
+junipero_gin = "342 g"
+simple_syrup = "104 g"
+green_chartreuse = "84 g"
+citric_acid = "7.8 g"
+fever_tree_tonic = "738 g"
+
+
+[[cocktail]]
+title = "Jesus Can't Hit a Curveball"
+page = 48
+
+[[cocktail.ingredients.batch_base]]
+fords_gin = "342 g"
+chareau_aloe_liqueur = "104 g"
+green_chartreuse = "84 g"
+ginger_syrup = "7.8 g"
+simple_syrup = "738 g"
+
+[[cocktail.ingredients.batch_serving]]
+base = "60 mL"
+celery_stock = "30 mL"
+lime_juice = "15 mL"
+chandon_etoile_brut = "60 mL"
+parsley_tincture = "spray"
+
+
+### GARNISHES ###
+[[garnish]]
+title = "Cucumber Spheres"
+
+[[garnish.ingredients]]
+
+
+### INTERMEDIATES ###
+[[intermediate]]
+id = "simple_syrup"
+title = "Simple Syrup"
+
+steps = [
+    "Mix all"
+]
+
+[[intermediate.ingredients]]
+sugar = "125 g"
+hot_water = "125 g"
+
+[[intermediate]]
+id = "ginger_syrup"
+title = "Ginger Syrup"
+
+steps = [
+    "Mix all",
+    "Blend",
+]
+
+[[intermediate.ingredients]]
+sugar = "60 g"
+ginger_juice = "60 g"
+
+
+[[intermediate]]
+id = "celery_juice"
+title = "Celery Juice"
+
+steps = [
+    "Blanch stalks for 1 minute",
+    "Chill in ice bath",
+    "Drain",
+    "Juice",
+    "Strain",
+]
+
+
+[[intermediate.ingredients]]
+celery = "1 head"
+
+
+[[intermediate]]
+id = "celery_stock"
+title = "Celery Stock"
+
+steps = [
+    "Mix all",
+    "Strain",
+    "Refrigerate",
+]
+
+[[intermediate.ingredients]]
+celery_juice = "100%"
+sugar = "25% of juice"
+
+
+[[intermediate]]
+id = "parsley_tincture"
+title = "Parsley Tincture"
+
+steps = [
+    "Pick leaves",
+    "Sous vide at 75 C, 5 minutes",
+    "Chill in ice bath",
+    "Strain",
+    "Refrigerate",
+]
+
+[[intermediate.ingredients]]
+parsley = "200 g"
+neutral_spirit_190 = "300 g"
+
+
+[[intermediate]]
+id = "serrano_water"
+title = "Serrano Water"
+
+steps = [
+    "Seed peppers",
+    "Blend with water on high for 20 sec",
+    "Strain",
+]
+
+[[intermediate.ingredients]]
+serrano_peppers = "3"
+water = "60 g"
+
+
+[[intermediate]]
+id = "serrano_ice"
+title = "Serrano Ice"
+
+steps = [
+    "Mix all",
+    "Freeze in 1.25 inch cubes until solid",
+]
+
+[[intermediate.ingredients]]
+serrano_water = "52 g"
+water = "220 g"
+green_bellpepper_juice = "120 g"
+glucose = "72 g"
+simple_syrup = "60 g"
+st_george_green_chile_vodka = "12 g"
+ginger_juice = "12 g"
+scrappys_lime_bitters = "3.5 g"
+salt = "0.5 g"
+
+
+### BASE INGREDIENTS ###
+[[ingredients]]
+id = "sugar"
+name = "Sugar"
+
+[[ingredients]]
+id = "hot_water"
+name = "Hot Water"
+
+[[ingredients]]
+id = "junipero_gin"
+name = "Junipero Gin"
+alcohol_percentage = 49.3 # 98.6 proof
+url = "https://juniperogin.com/"
+
+[[ingredients]]
+id = "green_chartreuse"
+name = "Green Chartreuse"
+alcohol_percentage = 55
+
+[[ingredients]]
+id = "fever_tree_tonic"
+name = "Fever Tree Tonic Water"
+
+[[ingredients]]
+id = "fords_gin"
+name = "Fords Gin"
+alcohol_percentage = 45
+url = "https://www.fordsgin.com/cocktail-gin"
+
+[[ingredients]]
+id = "st_george_green_chile_vodka"
+name = "St. George Green Chile Vodka"
+alcohol_percentage = 40
+url = "http://www.stgeorgespirits.com/spirits/vodka/st-george-green-chile-vodka/"
+
+[[ingredients]]
+id = "scrappys_lime_bitters"
+name = "Scrappy's Lime Bitters"
+alcohol_percentage = 49.1
+
+[[ingredients]]
+id = "chareau_aloe_liqueur"
+name = "Chareau Aloe Liqueur"
+alcohol_percentage = 25
+url = "https://chareau.us/"
+
+[[ingredients]]
+id = "chandon_etoile_brut"
+name = "Chandon étoile Brut"
+alcohol_percentage = 12.5
+url = "https://www.chandon.com/en-US/etoile-brut/1045084.html"
+
+[[ingredients]]
+id = "serrano_peppers"
+name = "Serrano Peppers"
+fresh = true
+
+[[ingredients]]
+id = "parsley"
+name = "Parsley"
+fresh = true
+
+[[ingredients]]
+id = "celery"
+name = "Celery"
+fresh = true
+
+[[ingredients]]
+id = "glucose"
+name = "Glucose"
+
+[[ingredients]]
+id = "citric_acid"
+name = "Citric Acid"
+
+[[ingredients]]
+id = "aperol"
+name = "Aperol"
+alcohol_percentage = 11
+density = 1
+
+[[ingredients]]
+id = "green_chartreuse"
+name = "Green Chartreuse"
+alcohol_percentage = 55
+url = "https://www.chartreuse.fr/en/produits/green-chartreuse/"
+density = 1.01  # https://bartenderly.com/tips-tricks/alcohol-density-chart/
+
+[[ingredients]]
+id = "yellow_chartreuse"
+name = "Yellow Chartreuse"
+alcohol_percentage = 43
+url = "https://www.chartreuse.fr/en/produits/yellow-chartreuse/"
+density = 1.06  # https://bartenderly.com/tips-tricks/alcohol-density-chart/
+
+[[ingredients]]
+id = "aviation_gin"
+name = "Aviation Gin"
+alcohol_percentage = 42
+url = "https://www.aviationgin.com/"
+# density = 0.92  # crude measurement of bourbon, (30±1) mL = 27.60 g
+density = 0.916  # vodka as per https://bartenderly.com/tips-tricks/alcohol-density-chart/
